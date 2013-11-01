@@ -1,76 +1,14 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
 <html>
 <head>
 
 <title>Sector Footprint</title>
 
-<style type="text/css"  />
-body {
-     width: 100%;
-     margin: 0 auto;}
-
-#intro {
-       text-align: center;
-       padding: 1em;
-       margin: .3em;}
-
-#song{
-      margin: 1%;
-      }
-
-.column1, .column2, .column3 {
-	  width: 31.3%;
-	  float: left;
-	  margin: 1%;}
-
-.column3 {margin-right: 0%;}
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css" text="text/css"/>
 
 
-li {
-   display: inline;
-   padding: 0.5em;}
-
-h1, h2, h3, a {
-    font-weight: normal;
-    }
-
-h1 {
-font-family: Times, sans-serif;
-font-size: 500%;
-}
-
-h2 {
-font-family: Verdana, serif;
-font-size: 110%;
-
-}
-
-.verses {
-       text-align: center;
-       height: 10em;
-       margin-bottom: 1em;
-       
-       }
-
-input {
-display-align: center;
-font-family: Helvetica, serif;
-font-size: 120%
-color: #5a5854;
-background-color: #f2f2f2;
-border: 1px solid #bdbdbd;
-border-radius: 5px;
-padding: 5px 5px 5px 5px
-background-repeat: no-repeat
-background-position: 8px 9px;
-display: block;
-margin-bottom: 10px;}
-
-input:focus, input:hover {
-	     background-color: #ffffff;
-	     border: 1px solid #b1e1e4;}
-</style>
- <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOdAQAuF5fWM2Oa_albNwY4Dov-zXsV08&sensor=true">
+<script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOdAQAuF5fWM2Oa_albNwY4Dov-zXsV08&sensor=true">
     </script>
     <script type="text/javascript">
       function initialize() {
@@ -87,32 +25,17 @@ input:focus, input:hover {
 </head>
 
 <body>
- <ul class="overlay-footer-social-links">
-      <li>
-        <a class="facebook" href="https://facebook.com/roadtrippers" target="_blank">
-          <i class="icon-social-facebook"></i>
-          Facebook
-        </a>
-      </li>
-      <li>
-        <a class="twitter" href="https://twitter.com/roadtrippers" target="_blank">
-          <i class="icon-social-twitter"></i>
-          Twitter
-        </a>
-      </li>
-      <li>
-        <a class="google-plus" href="https://plus.google.com/101053635723793509573" target="_blank">
-          <i class="icon-social-gplus"></i>
-          Google+
-        </a>
-      </li>
-      <li>
-        <a class="pinterest" href="https://pinterest.com/roadtrippers/" target="_blank">
-          <i class="icon-social-pinterest"></i>
-          Pinterest
-        </a>
-      </li>
-    </ul>
-<div id="map-canvas" style="width: 100%; height: 100%"/></div>
+<ul class="nav nav-list">
+  <li class="nav-header">About</li>
+  <li class="active"><a href="http://interactiveengineering.blogspot.com">Blog</a></li>
+  <li><a href="clientlist.html">Our Clients</a></li>
+  <li><a href="contactus.html">Contact Us</a></li>
+  <li><a href="ourfriends.html">Our Friends</a></li>
+</ul>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="js/bootstrap.js"></script> 
+<div class="row">
+  <div id="map-canvas" style="width: 100%; height: 100%"/></div>
+</div>
 </body>
 </html>
