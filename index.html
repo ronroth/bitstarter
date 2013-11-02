@@ -12,6 +12,28 @@
           zoom: 8,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
+      var styles = [
+      {
+      stylers: [
+      { hue: "#0776A0" },
+      { saturation: -20 }
+      ]
+},{
+      featureType: "road",
+      elementType: "geometry",
+      stylers: [
+      { lightness: 100 },
+      {visibility: "simplified" }
+      ]
+},{
+      featureType: "road",
+      elementType: "labels",
+      stylers: [
+      { visibility: "off" }
+      ]
+      }
+];
+map.setOptions({styles: styles});
         var map = new google.maps.Map(document.getElementById("map-canvas"),
             mapOptions);
       }
