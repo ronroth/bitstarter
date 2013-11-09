@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta char="utf-8">
+    <!-- Bootstrap -->
+    <link href="https://rawgithub.com/rroth42086/bitstarter/staging/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      
+      <div class="hero-unit">
+	<h1>Acronymizeable Brandname</h1>
+	<p>Crime Pays</p>
+
+<div class="row">
+         <div class="span4">
+         <h2>Box Number 1</h2>
+         <p> </p>
+         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
+         </div><!-- .span4 -->
+   
+         <div class="span4">
+                 <h2>Box Number 2</h2>
+         <p></p>
+         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
+         </div><!-- .span4 -->
+   
+         <div class="span4">
+                 <h2>Box Number 3</h2>
+         <p> </p>
+         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
+         </div><!-- .span4 -->
+   
+ </div><!-- .row -->
+ </div><!-- .container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
